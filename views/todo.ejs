@@ -1,37 +1,40 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compitable"content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RRS.css">     <!-- CSS file  -->
+    <link rel="stylesheet" href="../all.css">                   <!-- Icons -->
+    <title>Railway reservation system</title>
+</head>
+<body>
+   <nav class="navalist">
+      <ul>
+         
+         <li><a href="">HOME</a></li>
+         <li><a href="">Meals</a></li>
+         <li><a href="">Holiday</a></li>
+         <li><a href=""></a></li>
+         <li><a href="">CONTACT US</a></li>
+      </ul>
+   </nav>
+   <div class="container">
+      <h1>Railway Reservation System</h1>
+      
+      <button><a href="Book Your Ticket.html">Book Your Ticket</a></button>
+      <button><a href="contact us .html">Enquiry</a></button>
+      <button><a href="">Latest News</a></button>
+   </div>
+   <div class="content-box">
+      <h2>FACILITIES</h2>
+      
+         <div class="column">
+            <a href=""><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FmZXRlcmlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60=" alt="" ></a>
+            <a href="">CAFETERIA</a>
+         </div>
+      </div>
+   </div>
 
-<html>
-
-    <head>
-        <title>My Daily To-Do tasks</title>
-        <style>
-            a {
-                text-decoration: none;
-                color: black;
-            }
-
-        </style>
-    </head>
-
-    <body>
-        <h1>this tool is just Amazing & Awesome</h1>
-        <ul>
-            <% todolist.forEach(function(todo, index) { %>
-            <li>
-                <a href="/todo/delete/<%= index %>">✘</a>
-                <a href="/todo/<%= index %>">✎</a>
-                <%- todo %>
-            </li>
-            <% }); %>
-        </ul>
-
-        <form action="/todo/add/" method="post">
-            <p>
-                <label for="newtodo">What shoud I do?</label>
-                <input type="text" name="newtodo" id="newtodo" autofocus />
-                <input type="submit" value="Add" />
-            </p>
-        </form>
-    </body>
-
+</body>
 </html>
